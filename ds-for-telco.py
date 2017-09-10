@@ -87,7 +87,7 @@ sample_data.transpose().head(21)
 # 
 import urllib
 from IPython.display import Image
-Image(filename="ds-for-telco/slides/datatypes.png")
+Image(filename="slides/datatypes.png")
 # datatypes where continuous and integer are subtypes of numeric data and distinct from the categorical type(slides/datatypes.png)
 
 # The type of visualization we do depends on the data type, so lets define what columns have different properties first:
@@ -113,7 +113,7 @@ categorical_cols = ["state", "international_plan", "voice_mail_plan", "area_code
 # 
 # 
 # 
-Image(filename="ds-for-telco/slides/seaborn_home_page.png")
+Image(filename="slides/seaborn_home_page.png")
 # Screen capture of Seaborn home page.
 
 # #Feature Distributions
@@ -175,7 +175,7 @@ reduced_numeric_cols = ["account_length", "number_vmail_messages", "total_day_ca
 # 
 # The overall process:
 # 
-Image(filename="ds-for-telco/slides/model flow.png")
+Image(filename="slides/model flow.png")
 # Model building diagraming showing input data split into train and test data. The training data is aligned with a feature extraction and model training set, which outputs a fitter model. The testing data alignes with a feature extraction, scoring/model application, and model evaluation step
 
 # # Feature Extraction and Model Training
@@ -249,7 +249,7 @@ model = pipeline.fit(train)
 #     * .60-.70 = poor (D)
 #     * .50-.60 = fail (F)
 # 
-Image(filename="ds-for-telco/slides/roc_curve.png")
+Image(filename="slides/roc_curve.png")
 
 # example of an roc curve
 
